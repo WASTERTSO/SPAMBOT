@@ -15,11 +15,11 @@ from datetime import datetime
 RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ba87c58f01a6fcb5ef512.jpg"
   
 
-rizoel = "✯ 𝙃𝙚𝙖𝙧𝙩𝙃𝙖𝙘𝙠𝙚𝙧 𝙎𝙥𝙖𝙢 𝙃𝙚𝙧𝙚 ✯\n\n"
-rizoel += f"═══════════════════\n"
-rizoel += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.9.6`\n"
-rizoel += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
-rizoel += f"═══════════════════\n\n"   
+rizoel = "|•| Tsᴏ Sᴘᴀᴍ Bᴏᴛ ⋟ \n\n"
+rizoel += f"▱▱▱▱▱▱▱▱▱▱▱▱▱\n"
+rizoel += f"• **Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ** : `3.9.6`\n"
+rizoel += f"• **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ** : `{version.__version__}`\n"
+rizoel += f"\▱▱▱▱▱▱▱▱▱▱▱▱▱n\n"   
 
                                   
 @Riz.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
@@ -30,11 +30,11 @@ async def alive(event):
                                   caption=rizoel,
                                   buttons=[
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/YamlokOfficial"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/LHTHALxFIGHTERS")
+        Button.url("Uᴘᴅᴀᴛᴇs 🚀", "https://t.me/tso_UPDATES"),
+        Button.url("Sᴜᴘᴘᴏʀᴛ 🚑", "https://t.me/Tso_chats")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/AT-WORLDS-END/HeartHackerSpamBot")
+        Button.url("Dᴇᴠᴇʟᴏᴘᴇʀ 👨‍💻", "https://t.me/ll_TSO_KING_ll")
         ]
         ]
         )
@@ -83,7 +83,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"𝐏𝐎𝐍𝐆\n\nϟ 𝙃𝙚𝙖𝙧𝙩 𝙃𝙖𝙘𝙠𝙚𝙧 𝙎𝙥𝙖𝙢 𝘽𝙤𝙩 ϟ︎ `{ms}` ᴍs")
+        await event.edit(f"Pᴏɴɢ\n|•| Tsᴏ Sᴘᴀᴍ Bᴏᴛ ⋟ \n `{ms}` ᴍs")
         
         
 
@@ -99,7 +99,7 @@ async def ping(e):
 @Riz10.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        text = "**Restarting Your 𝙃𝙚𝙖𝙧𝙩 𝙃𝙖𝙘𝙠𝙚𝙧 𝙎𝙥𝙖𝙢 𝘽𝙤𝙩**.. Please Wait Until It Starts Again"
+        text = "**Rᴇsᴛᴀʀᴛɪɴɢ |•| Tsᴏ Sᴘᴀᴍ Bᴏᴛ ⋟**.. Pʟᴇᴀsᴇ Wᴀɪᴛ Uɴᴛɪʟ Iᴛ Sᴛᴀʀᴛs Aɢᴀɪɴ"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await Riz.disconnect()
@@ -171,7 +171,7 @@ async def tb(event):
             newsudo = f"{sudousers} {target}"
         else:
             newsudo = f"{target}"
-        await ok.edit(f"**Added `{target}` ** as a sudo user 🔱 Restarting.. Please wait a minute...")
+        await ok.edit(f"**Added `{target}` **As A Sᴜᴅᴏ Usᴇʀ 🥷 Rᴇsᴛᴀʀᴛɪɴɢ... Pʟᴇᴀsᴇ Wᴀɪᴛ A Mɪɴᴜᴛᴇ...")
         heroku_var[rizoel] = newsudo   
    
      

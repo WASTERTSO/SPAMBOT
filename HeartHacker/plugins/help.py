@@ -5,11 +5,11 @@ from time import time
 from datetime import datetime
 from HeartHacker import CMD_HNDLR as hl
     
-HELP_PIC = "https://telegra.ph/file/9acc785291052c8f8998d.jpg"
+HELP_PIC = "https://te.legra.ph/file/57ba5962f44d06595b353.jpg"
 
-Riz_Help = "🔥 𝙃𝙚𝙖𝙧𝙩 𝙃𝙖𝙘𝙠𝙚𝙧 𝙎𝙥𝙖𝙢 𝘽𝙤𝙩 🔥\n\n"
+Riz_Help = "|•| Tsᴏ Sᴘᴀᴍ Bᴏᴛ ⋟\n\n"
  
-Riz_Help += f"__ᴄᴍᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ 𝙃𝙚𝙖𝙧𝙩 𝙃𝙖𝙘𝙠𝙚𝙧 𝙎𝙥𝙖𝙢 𝘽𝙤𝙩__\n\n"
+Riz_Help += f"__Cᴍᴅs Aᴠᴀɪʟᴀʙʟᴇ Iɴ |•| Tsᴏ Sᴘᴀᴍ Bᴏᴛ ⋟__\n\n"
 
 Riz_Help += f" ↧ 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙲𝙼𝙳𝚂 ↧\n\n"
 
@@ -34,10 +34,10 @@ async def help(event):
                                   caption=Riz_Help,
                                   buttons=[
         [
-        Button.url("ᴀʟʟ ᴄᴍᴅs", "https://telegra.ph/%F0%9D%97%A5%F0%9D%97%9C%F0%9D%97%AD%F0%9D%97%A2%F0%9D%97%98%F0%9D%97%9F-%F0%9D%97%AB-%F0%9D%97%A6%F0%9D%97%A3%F0%9D%97%94%F0%9D%97%A0-11-28-2")
+        Button.url("Sᴜᴘᴘᴏʀᴛ 🚑", "https://t.me/tso_chats")
         ],
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/YamlokOfficial")
+        Button.url("Uᴘᴅᴀᴛᴇs 🚀", "https://t.me/tso_updates")
         ] 
         ]
         )                                                         

@@ -14,7 +14,7 @@
 
 # [Dᴇᴘʟᴏʏ Tᴏ Hᴇʀᴏᴋᴜ]
 
-[![Dᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/wastertso/SpamBot)
+[![Dᴇᴘʟᴏʏ](https://dashboard.heroku.com/new-app?template=http://Github.com/wastertso/spambot)
 
 
 # Support & Updates

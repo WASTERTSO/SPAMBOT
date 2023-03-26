@@ -14,7 +14,7 @@
 
 # [Dᴇᴘʟᴏʏ Tᴏ Hᴇʀᴏᴋᴜ]
 
-[![Dᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AT-WORLDS-END/HeartHackerSpamBot)
+[![Dᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/wastertso/SpamBot)
 
 
 # Support & Updates

@@ -17,10 +17,8 @@
 
 
 
-[!
+href="https://heroku.com/deploy?template=https://github.com/wastertso/spambot"><img src="https://www.herokucdn.com/deploy/button.svg" height="40"></a>
 
-(<a href="https://heroku.com/deploy?template=https://github.com/wastertso/spambot"><img src="https://www.herokucdn.com/deploy/button.svg" height="40"></a>
-> )
 
 
 # Support & Updates

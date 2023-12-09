@@ -17,12 +17,11 @@
 
 
 
-href="https://heroku.com/deploy?template=https://github.com/wastertso/spambot"><img src="https://www.herokucdn.com/deploy/button.svg" height="40"></a>
 
 
 
 # Support & Updates
-* [Channel](https://t.me/tso_updates)
+* [Channel](https://t.me/Godx_Bots)
 * [Support Group](https://t.me/tso_chats)
 
 # Credits
